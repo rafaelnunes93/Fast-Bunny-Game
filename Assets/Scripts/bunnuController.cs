@@ -44,7 +44,7 @@ public class bunnuController : MonoBehaviour
 
             case "Obstaculo":
                 _gameController.mudarCena("gameOver");
-                    break;
+            break;
         }
     }
 }

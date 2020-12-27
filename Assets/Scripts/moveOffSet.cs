@@ -17,10 +17,12 @@ public class moveOffSet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //inicia o MasRender
         meshRender = GetComponent<MeshRenderer>();
         meshRender.sortingLayerName = sortingLayer;
         meshRender.sortingOrder = orderInlayer;
 
+        //Pega o material que esta no Objeto
         currentMaterial = meshRender.material;
     }
 
